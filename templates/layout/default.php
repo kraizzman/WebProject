@@ -28,6 +28,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->meta('icon') ?>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
 
     <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?>
 
@@ -36,22 +38,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <nav class="top-nav">
-        <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
-        </div>
-        <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
-            <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
-        </div>
-    </nav>
-    <main class="main">
-        <div class="container">
+    <section id="container">
+   <?= $this->element("front/Header") ?>
+        <main id="content">
             <?= $this->Flash->render() ?>
             <?= $this->fetch('content') ?>
-        </div>
-    </main>
-    <footer>
-    </footer>
+        </main>
+        <?= $this->element("front/footer") ?>
+    </section>
 </body>
 </html>
