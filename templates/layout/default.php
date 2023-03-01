@@ -31,7 +31,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
 
-    <?= $this->Html->css(['normalize.min', 'milligram.min', 'cake']) ?>
+    <?= $this->Html->css(['materialize']) ?>
+
+
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
