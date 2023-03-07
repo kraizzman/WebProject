@@ -57,7 +57,7 @@
             <?php
             echo $this->Html->link("Voir les cartes de ce type", [
                 'controller' => 'PokemonCards',
-                'action' => 'Plant',
+                'action' => 'Plante',
 
 
                 1],

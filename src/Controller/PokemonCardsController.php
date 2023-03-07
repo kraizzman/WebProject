@@ -16,20 +16,22 @@ class PokemonCardsController extends AppController
 
     }
 
-    public function plant()
+    public function plante()
+    {
+
+    }
+    public function electrique()
+    {
+
+    }
+    public function psy()
     {
 
     }
 
-    public function Electique()
-    {
 
-    }
-    public function Psy()
-    {
 
-    }
-    public function Combat()
+    public function combat()
     {
 
     }
