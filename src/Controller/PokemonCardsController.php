@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use Cake\Event\EventInterface;
 
-class CartsController extends AppController 
+class PokemonCardsController extends AppController 
 {
     public function add()
     {
