@@ -5,7 +5,7 @@
 
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" class="col-sm-2  " height="20%">
 
-       <div class="">
+       <div class="d-flex flex-row-reverse">
 
        <?php
        echo $this->Html->image("logintest.png", [
