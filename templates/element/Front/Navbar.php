@@ -1,15 +1,12 @@
 <aside>
-    <div id="sidebar" class="nav-collapse ">
-        <ul class="sidebar-menu" id="nav-accordion">
-            <p class="centered">
+    <div id="sidebar" class="nav-collapse bg-danger">
 
-            </p>
-            <h5 class="centered">
-                <?= $_SESSION['user']['name']??"" ?>
-            </h5>
-            <li class="mt">
+        <ul>
+            <li class="col-sm-1">
+
             </li>
-            <li class="mt">
+            <li class="col-sm-1">
+
             </li>
         </ul>
     </div>
