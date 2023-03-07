@@ -18,7 +18,7 @@
                 <?php echo $this->Form->control('password', ['class' => 'form-control', 'label' => false]); ?>
             </div>
         </div>
-            <div class="center">
+            <div class="center mb-2x">
                 <?php echo $this->Form->button('Submit', ['type' => 'submit', 'class' => 'btn btn-primary']); ?>
 
             </div>

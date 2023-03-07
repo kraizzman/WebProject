@@ -31,7 +31,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
 
-    <?= $this->Html->css(['materialize']) ?>
+    <?= $this->Html->css(['Style']) ?>
 
 
 
@@ -42,6 +42,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <section id="container">
    <?= $this->element("front/Header") ?>
+        <?= $this->element("front/Navbar")?>
+
         <main id="content">
             <?= $this->Flash->render() ?>
             <?= $this->fetch('content') ?>
