@@ -10,12 +10,12 @@
 
         <?php
         echo $this->Html->link("Voir les cartes de ce type", [
-                'controller' => 'Carts',
-                'action' => 'add',
+                'controller' => 'PokemonCards',
+                'action' => 'Feu',
 
 
 1],
-            ['class' => 'btn btn-primary'
+            ['class' => 'btn btn-danger'
 
 
             ]
@@ -33,8 +33,8 @@
 
         <?php
         echo $this->Html->link("Voir les cartes de ce type", [
-            'controller' => 'Carts',
-            'action' => 'add',
+            'controller' => 'PokemonCards',
+            'action' => 'Eau',
 
 
             1],
@@ -56,12 +56,12 @@
 
             <?php
             echo $this->Html->link("Voir les cartes de ce type", [
-                'controller' => 'Carts',
-                'action' => 'add',
+                'controller' => 'PokemonCards',
+                'action' => 'Plant',
 
 
                 1],
-                ['class' => 'btn btn-primary'
+                ['class' => 'btn btn-success'
 
 
                 ]
@@ -85,12 +85,12 @@
 
             <?php
             echo $this->Html->link("Voir les cartes de ce type", [
-                'controller' => 'Carts',
-                'action' => 'add',
+                'controller' => 'PokemonCards',
+                'action' => 'Electrique',
 
 
                 1],
-                ['class' => 'btn btn-primary'
+                ['class' => 'btn btn-warning'
 
 
                 ]
@@ -108,9 +108,9 @@
 
             <?php
             echo $this->Html->link("Voir les cartes de ce type", [
-                'controller' => 'Carts',
-                'action' => 'add', 1],
-                ['class' => 'btn btn-primary']
+                'controller' => 'PokemonCards',
+                'action' => 'Psy', 1],
+                ['class' => 'btn btn-secondary']
             );
             ?>
 
@@ -124,12 +124,12 @@
 
             <?php
             echo $this->Html->link("Voir les cartes de ce type", [
-                'controller' => 'Carts',
-                'action' => 'add',
+                'controller' => 'PokemonCards',
+                'action' => 'Combat',
 
 
                 1],
-                ['class' => 'btn btn-primary'
+                ['class' => 'btn btn-dark'
 
 
                 ]
@@ -147,7 +147,13 @@
                 <p class="card-text">Type Acier</p>
             </div>
 
-            <?php  ?>
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'PokemonCards',
+                'action' => 'Acier', 1],
+                ['class' => 'btn btn-dark']
+            );
+            ?>
         </div>
 
 
@@ -157,7 +163,13 @@
                 <p class="card-text">Type Tenebres</p>
             </div>
 
-            <?php  ?>
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add', 1],
+                ['class' => 'btn btn-dark']
+            );
+            ?>
 
         </div>
 
@@ -167,7 +179,13 @@
                 <p class="card-text">Type Fée</p>
             </div>
 
-            <?php  ?>
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add', 1],
+                ['class' => 'btn btn-danger']
+            );
+            ?>
 
         </div>
 
