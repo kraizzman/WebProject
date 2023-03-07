@@ -1,31 +1,175 @@
-<!--main content start-->
-<section id="main-content">
-    <section class="wrapper">
-        <h3><i class="fa fa-angle-right"></i> Tickets list</h3>
-        <div class="row mt">
-            <div class="col-md-12">
-                <section class="task-panel tasks-widget">
-                    <div class="panel-heading">
-                        <div class="pull-left">
-                            <h5><i class="fa fa-tasks"></i> Liste des tickets</h5>
-                        </div>
-                        <br>
-                    </div>
-                    <div class="panel-body">
-                        <div class="task-content">
-                            <ul class="task-list">
+<section>
 
-                            </ul>
-                        </div>
-                        <div class=" add-task-row">
-                            <?php echo $this->Html->link('Ajouter un nouveau ticket', ['controller' => 'Tickets', 'action' => 'create'], ['escapeTitle' => false, "class" => "btn btn-success btn-sm pull-left"]);?>
-                            <?php echo $this->Html->link('Voir tous les tickets', ['controller' => 'Tickets', 'action' => 'listing'], ['escapeTitle' => false, "class" => "btn btn-default btn-sm pull-right"]);?>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <!-- /col-md-12-->
+    <div class="col-sm-12 d-flex justify-content-between">
+
+    <div class="card col-sm-3" style="width: 18rem;">
+        <img src="https://www.pokepedia.fr/images/thumb/3/3f/Carte_Noir_%26_Blanc_106.png/180px-Carte_Noir_%26_Blanc_106.png" class="card-img-top" alt="CarteTypefeu">
+        <div class="card-body">
+            <p class="card-text">Type feu</p>
         </div>
-    </section>
-    <!-- /wrapper -->
+
+        <?php
+        echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add',
+
+
+1],
+            ['class' => 'btn btn-primary'
+
+
+            ]
+
+        );
+        ?>
+    </div>
+
+
+    <div class="card col-sm-1" style="width: 18rem;">
+        <img src="https://www.pokepedia.fr/images/3/33/Carte_HS_Kit_du_Dresseur_L%C3%A9viator_2.png?20140105193555" class="card-img-top" alt="CarteTypefeu">
+        <div class="card-body">
+            <p class="card-text">Type Eau</p>
+        </div>
+
+        <?php
+        echo $this->Html->link("Voir les cartes de ce type", [
+            'controller' => 'Carts',
+            'action' => 'add',
+
+
+            1],
+            ['class' => 'btn btn-primary'
+
+
+            ]
+
+        );
+        ?>
+
+    </div>
+
+        <div class="card col-sm-1" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/thumb/1/1f/Carte_XY_%C3%89nergie_Plante.png/270px-Carte_XY_%C3%89nergie_Plante.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Plante</p>
+            </div>
+
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add',
+
+
+                1],
+                ['class' => 'btn btn-primary'
+
+
+                ]
+
+            );
+            ?>
+
+        </div>
+
+
+
+
+    </div>
+    <div class="col-sm-12 d-flex justify-content-between">
+
+        <div class="card col-sm-3" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/thumb/1/14/Carte_XY_%C3%89nergie_%C3%89lectrique.png/270px-Carte_XY_%C3%89nergie_%C3%89lectrique.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Electrique</p>
+            </div>
+
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add',
+
+
+                1],
+                ['class' => 'btn btn-primary'
+
+
+                ]
+
+            );
+            ?>
+        </div>
+
+
+        <div class="card col-sm-1" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/thumb/0/01/Carte_XY_%C3%89nergie_Psy.png/270px-Carte_XY_%C3%89nergie_Psy.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Psy</p>
+            </div>
+
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add', 1],
+                ['class' => 'btn btn-primary']
+            );
+            ?>
+
+        </div>
+
+        <div class="card col-sm-1" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/thumb/e/e7/Carte_XY_%C3%89nergie_Combat.png/270px-Carte_XY_%C3%89nergie_Combat.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Combat</p>
+            </div>
+
+            <?php
+            echo $this->Html->link("Voir les cartes de ce type", [
+                'controller' => 'Carts',
+                'action' => 'add',
+
+
+                1],
+                ['class' => 'btn btn-primary'
+
+
+                ]
+
+            );
+            ?>
+
+        </div>
+    </div>
+    <div class="col-sm-12 d-flex justify-content-between">
+
+        <div class="card col-sm-3" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/thumb/9/91/Carte_XY_%C3%89nergie_Obscurit%C3%A9.png/270px-Carte_XY_%C3%89nergie_Obscurit%C3%A9.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Acier</p>
+            </div>
+
+            <?php  ?>
+        </div>
+
+
+        <div class="card col-sm-1" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/thumb/9/91/Carte_XY_%C3%89nergie_Obscurit%C3%A9.png/270px-Carte_XY_%C3%89nergie_Obscurit%C3%A9.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Tenebres</p>
+            </div>
+
+            <?php  ?>
+
+        </div>
+
+        <div class="card col-sm-1" style="width: 18rem;">
+            <img src="https://www.pokepedia.fr/images/1/11/Carte_XY_%C3%89nergie_F%C3%A9e.png" class="card-img-top" alt="CarteTypefeu">
+            <div class="card-body">
+                <p class="card-text">Type Fée</p>
+            </div>
+
+            <?php  ?>
+
+        </div>
+
+
 </section>
