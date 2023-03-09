@@ -13,6 +13,11 @@
                 'url' => ['controller' => 'Users', 'action' => 'Panier', 6],
                 'class' => 'col-sm-1'
             ]);
+            echo $this->Html->image("Plusicone.png", [
+                "alt" => "Brownies",
+                'url' => ['controller' => 'Carts', 'action' => 'add', 6],
+                'class' => 'col-sm-1'
+            ]);
             ?>
         </div>
     </div>

@@ -1,4 +1,5 @@
 <section>
+
     <?php
 
     for ($j = 0;$j<3;$j++){
@@ -8,14 +9,17 @@
 
 
 
+
+
         for ($i = 0;$i<3;$i++){
             echo '<div class="card col-sm-3 " style="width: 18rem;">';
 
 
-            $this->Html->image('Julo.jpg', [
-                'class' => 'card-img-top',
-                'alt' => 'CarteTypefeu'
-            ]);
+
+
+            echo '<img src="https://i.ebayimg.com/images/g/kcEAAOSw4jxglp9o/s-l1600.jpg" alt="Tiph">';
+
+
 
            echo '<div class="card-body">
                 <p class="card-text">Typhlosion</p>

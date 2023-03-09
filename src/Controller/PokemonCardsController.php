@@ -36,4 +36,16 @@ class PokemonCardsController extends AppController
 
     }
 
+    public function tenebres (
+    ){
+
+    }
+
+    public function acier(){
+
+    }
+
+    public function fee(){
+
+    }
 }
